@@ -21,10 +21,13 @@ jobs:
         with:
           dotnet-version: 9.0.x
       - name: Restore dependencies
+        working-directory: src/CalculoFrete.Api
         run: dotnet restore
       - name: Build
+        working-directory: src/CalculoFrete.Api
         run: dotnet build --no-restore
       - name: Test
+        working-directory: src/CalculoFrete.Api
         run: dotnet test --no-build --verbosity normal
 
 # name: GitHub Actions Demo
