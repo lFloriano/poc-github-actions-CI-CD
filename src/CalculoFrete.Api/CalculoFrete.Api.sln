@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36603.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoFrete.Api", "CalculoFrete.Api.csproj", "{4A7B5111-2B69-4D49-83C2-98127859550D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "services", "services", "{60955EE2-8F35-4CF2-A860-6964FEB612B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoFrete.Domain", "..\CalculoFrete.Domain\CalculoFrete.Domain.csproj", "{2ED3EBA0-2A20-4D83-9D3A-5BFC020009EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoFrete.Data", "..\CalculoFrete.Data\CalculoFrete.Data.csproj", "{888A1C83-0DA2-4A1C-8E17-7203A7A7057C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoFrete.Tests", "..\..\tests\CalculoFrete.Tests\CalculoFrete.Tests.csproj", "{9BFB8068-2C12-4780-8B72-BFF1B3A44972}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculoFrete.Core", "..\CalculoFrete.Core\CalculoFrete.Core.csproj", "{853F8299-6028-4F0C-80E8-416BCD3DD323}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A7B5111-2B69-4D49-83C2-98127859550D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A7B5111-2B69-4D49-83C2-98127859550D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A7B5111-2B69-4D49-83C2-98127859550D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A7B5111-2B69-4D49-83C2-98127859550D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2ED3EBA0-2A20-4D83-9D3A-5BFC020009EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2ED3EBA0-2A20-4D83-9D3A-5BFC020009EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2ED3EBA0-2A20-4D83-9D3A-5BFC020009EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2ED3EBA0-2A20-4D83-9D3A-5BFC020009EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{888A1C83-0DA2-4A1C-8E17-7203A7A7057C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888A1C83-0DA2-4A1C-8E17-7203A7A7057C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888A1C83-0DA2-4A1C-8E17-7203A7A7057C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888A1C83-0DA2-4A1C-8E17-7203A7A7057C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BFB8068-2C12-4780-8B72-BFF1B3A44972}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BFB8068-2C12-4780-8B72-BFF1B3A44972}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BFB8068-2C12-4780-8B72-BFF1B3A44972}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BFB8068-2C12-4780-8B72-BFF1B3A44972}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853F8299-6028-4F0C-80E8-416BCD3DD323}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853F8299-6028-4F0C-80E8-416BCD3DD323}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853F8299-6028-4F0C-80E8-416BCD3DD323}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853F8299-6028-4F0C-80E8-416BCD3DD323}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{4A7B5111-2B69-4D49-83C2-98127859550D} = {60955EE2-8F35-4CF2-A860-6964FEB612B5}
+		{2ED3EBA0-2A20-4D83-9D3A-5BFC020009EB} = {60955EE2-8F35-4CF2-A860-6964FEB612B5}
+		{888A1C83-0DA2-4A1C-8E17-7203A7A7057C} = {60955EE2-8F35-4CF2-A860-6964FEB612B5}
+		{9BFB8068-2C12-4780-8B72-BFF1B3A44972} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{853F8299-6028-4F0C-80E8-416BCD3DD323} = {60955EE2-8F35-4CF2-A860-6964FEB612B5}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2847E03C-EF37-4E0A-8CAA-4A9B75B87290}
+	EndGlobalSection
+EndGlobal
